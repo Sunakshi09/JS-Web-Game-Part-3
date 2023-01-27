@@ -36,12 +36,12 @@ function newInventory(){
     return inventory
 }
 
-function move(image){
-    image.style.position = 'fixed'
+function move(element){
+    element.style.position = 'fixed'
     
     function moveToCoordinates(left, bottom){
-        image.style.left = left + 'px'
-        image.style.bottom = bottom + 'px'
+        element.style.left = left + 'px'
+        element.style.bottom = bottom + 'px'
     }
 
     return {
